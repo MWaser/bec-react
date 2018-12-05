@@ -1,0 +1,1058 @@
+body{
+	width:100%;
+	margin: 0 auto;
+	padding: 0;
+	float: left;
+	font-family: 'Open Sans', sans-serif;
+}
+
+ .wapper{
+	width:100%;
+	margin: 0 auto;
+	padding: 0;
+	float: left;
+    overflow: hidden;	
+	
+}
+.padding{
+	padding: 0;
+}
+.wapper .header{
+ 	position: fixed;
+    width: 100%;
+    background-color: rgba(255,255,255,0.5);
+    z-index: 2;
+    margin: 0 auto;
+    padding: 0;
+ }
+ .slider{
+ 	    background: url(../images/header-img.jpg) no-repeat;
+    display: block;
+    width: 100%;
+    float: left;
+    padding: 0;
+    height: 600px;
+    margin: 0 auto;
+    background-size: cover;
+ }
+.top_header{
+ 	    margin: 10px auto -10px ;
+ 	    width: 100;
+ 	    float: left;
+ 	    padding:0;
+}
+.header_menu{
+	    padding: 0 30px 0 30px;
+	   
+	    float: left;
+	    margin: 0 auto;
+}
+.contact-btn {
+	    background: none;
+    border: 3px solid #fff;
+    padding: 10px 40px 10px 40px;
+    color: #fff  !important;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    margin: 5px 0;
+    float: right;
+	text-decoration:none !important;
+}
+.top_header .menu .nav  li a{
+	color: #fff !important;
+	font-size: 12px;
+    font-weight: 600;
+	padding: 15px 14px;
+}
+.top_header .nav>li>a:focus, .nav>li>a:hover{
+	background: none;
+}
+.slider .main_slider{
+	    top: 100px;
+    width: 100%;
+    float: left;
+    padding: 0;
+    margin: 0 auto;
+}
+.right_button{
+	    float: right;
+    padding: 0;
+       margin: 20px auto 50px;
+
+    
+}
+.white-btn{
+	background: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px 10px 20px;
+    text-transform: uppercase;
+    color: #00b3e3 !important;
+    font-size: 12px;
+    text-decoration: none!important;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin: 0 0 25px 0;
+    float: right;
+
+}
+.yellow-btn{
+	    background: #e3e937;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px 10px 20px;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 0;
+    text-decoration: none!important;
+    float: right;
+}
+.slider_content h1{
+	    font-size: 60px;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #e3e937;
+    font-family: arial;
+    margin: 0 0 20px;
+    width: 100%;
+    float: left;
+    padding: 0;
+}
+.slider_content{
+	background: #0088ab;
+    float: left;
+    width: 100%;
+    margin: 0 auto;
+        padding: 30px 40px;
+}
+.slider_content p{
+	font-size: 36px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 100;
+}
+.footer{
+	    background: url(../images/footer-bg.jpg) no-repeat;
+    display: block;
+    width: 100%;
+    float: left;
+    padding: 0;
+    height: auto;
+    margin: 0 auto;
+    background-size: cover;
+}
+.about{
+	width: 100%;
+    margin: 70px auto 0;
+    padding: 0;
+    float: left;
+
+}
+.main_body{
+	width: 100%;
+	float: left;
+	padding: 0;
+	margin: 0 auto;
+}
+ 
+.about  h4{
+	    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding: 20px 0 30px 0;
+}
+.about  h5{
+	font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 10px 0 10px 0;
+}
+.about_content p{
+	font-size: 18px;
+    font-weight: 100;
+    color: #949494;
+}
+.about_content{
+	padding: 0 110px 0 0 ;
+}
+h3{
+	    font-size: 30px;
+    margin: 60px auto;
+    width: 100%;
+    text-align: center;
+    color: #0088ab;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 40px;
+}
+ .power_tech{
+ 	text-align: center;
+ 	margin: 0 auto;
+ }
+ 
+.bec_glance p{
+	padding: 0 42px 0 42px;
+    text-align: center;
+    font-size: 16px;
+}
+.bec_glance img{
+	    margin: 0 auto 80px;
+}
+.bec_glance{
+	text-align: center;
+	width: 100%;
+	float: left;
+	padding: 0;
+	margin: 0 auto;
+}
+.lenr_bec thead{
+	    width: 100%;
+    background: #e3e937;
+    font-size: 17px;
+    color: #0088ab;
+}
+.lenr_bec, table{
+	width: 100%;
+	padding: 0;
+	margin: 0 auto;
+	float: left;
+	overflow:hidden;
+}
+.lenr_bec table tbody tr{
+	padding: 10px 0;
+}
+
+.lenr_bec table tbody tr td{
+	color:#898989;
+	 font-size: 17px;
+}
+
+.lenr_bec table tbody tr td:first-child{
+	color:#0088ab;
+}
+
+.technology,.meet-team,.token
+{
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 60px 0;
+  float: left;
+}
+.technology h2,.meet-team-hedding h2,.timeline h2,.faq h2, .token h2
+{
+  font-size: 30px;
+  font-weight: 700;
+  color: #2c2e37;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
+.technology h2:before ,.meet-team-hedding h2:before,.timeline h2:before,.faq h2:before,.token h2:before
+{
+  display: block;
+  content: "";
+  width: 83px;
+  height: 10px;
+  background: url(../images/title-line.png);
+  background-repeat: no-repeat;
+  padding: 0;
+  margin: 0 auto 28px;
+}
+.technology-method
+{
+ padding: 113px 0 0 0;
+ margin: 0;
+}
+.technology-method h3
+{
+  font-size: 30px;
+  font-weight: 700;
+  color: #0088ab;
+  margin: 0px;
+  padding: 0;
+}
+.technology-method img
+{
+  margin: 60px auto;
+}
+.technology-method p
+{
+  font-size: 14px;
+  font-weight: 400;
+  color: #010000;
+  margin: 0;
+  padding: 0 0 20px 0;
+  text-align: left;
+}
+.meet-team
+{
+  padding: 0px 0px 60px 0;
+}
+.meet-team-box-text
+{
+  background-color: #0088ab;
+  padding: 11px 20px;
+  height: 104px;
+}
+.meet-team-box img
+{
+  width: 100%;
+}
+.meet-team-box-text h3
+{
+  padding: 0 0 20px 0;
+  margin: 0;
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+}
+.meet-team-box-text p
+{
+  padding: 0;
+  margin: 0;
+  font-size: 10px;
+  font-weight: 600;
+  color: #fff;
+}
+.meet-team-hedding
+{
+  padding: 0 0 70px 0;
+}
+.meet-team-box-part
+{
+  padding: 0 0 100px 0;
+}
+.board-members 
+{
+  padding: 0;
+}
+.board-members h3
+{
+  font-size: 30px;
+  font-weight: 700;
+  color: #0088ab;
+  margin: 0px;
+  padding: 0 0 40px 0;
+  text-transform: uppercase;
+}
+
+.board-members span
+{
+    font-size: 14px;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    color: #010000;
+}
+.board-members p
+{
+  font-size: 14px;
+  font-weight: 400;
+  margin: 0;
+  padding: 0 280px 30px 280px;
+  color: #010000;
+  line-height: 25px;
+}
+.boadre_box {
+    height: 350px;
+    padding: 50px 50px;
+    text-align: center;
+}
+p.littal_title {
+    font-size: 12px;
+    font-weight: 600;
+    padding: 10px;
+    color: #60bbde;
+}
+h6.title {
+    font-size: 17px;
+    font-weight: 700;
+    padding: 20px 0 50px 0;
+    color: #0088ab;
+}
+p.descrpation {
+    font-size: 14px;
+}
+.bg_box_color{
+  background:#0088ab;
+  color: #fff; 
+}
+
+.bg_box_color h6.title{
+  
+  color: #fff; 
+}
+
+.diff_bg_color{
+  background:#60bbde;
+  color: #fff; 
+}
+.diff_bg_color p.littal_title,.diff_bg_color h6.title{
+  color: #fff;
+}
+.funding_token{
+    box-shadow: 0px 1px 13px 0px #888888;
+    margin: 100px 0 100px 0;
+}
+.timeline
+ {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 60px 0;
+    float: left;
+	background-color:#dff1f8;
+}
+.timeline img
+{
+	padding: 100px 0 20px 0;
+	margin:0;
+}
+.timeline p 
+{
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0 0 30px 0;
+    color: #010000;
+    line-height: 25px;
+}
+.timeline span 
+{
+    font-size: 17px;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+    color: #4ec9f5;
+    line-height: 25px;
+	text-transform:uppercase;
+}
+.application
+ {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 60px 0;
+    float: left;
+}
+.year 
+{
+	padding:0 0 20px 0 !important;
+}
+.faq
+ {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 60px 0;
+    float: left;
+	background-color:#e3e937;
+}
+.faq-bottom
+ {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 60px 0;
+    float: left;
+}
+.faq-bottom h4 
+{
+    font-size: 13px;
+    font-weight: 700;
+    margin: 0;
+    padding: 0 0 5px 0;
+    color: #000;
+    line-height: 25px;
+	text-align:left;
+}
+.faq-bottom p,.token p 
+{
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0 0 20px 0;
+    color: #010000;
+    line-height: 25px;
+	text-align:left;
+}
+.faq-bottom a 
+{
+    font-size: 12px;
+    font-weight: 700;
+    margin: 0;
+    padding: 8px 15px;
+    color: #fff;
+	background-color:#36aeea;
+	text-decoration:none;
+	text-transform:uppercase;
+	border-radius: 4px;
+    line-height: 25px;
+	text-align:left;
+}
+.token img
+{
+	margin:50px auto;
+	text-align:center;
+}
+.token ul li
+{
+	font-weight:700;
+	padding: 5px 0;
+}
+.token-box
+{
+	background-color:#0089ac;
+	width:100%;
+	margin:0 0 5px 0;
+	padding:20px;
+}
+.token-box h3 
+{
+    font-size: 24px;
+    font-weight: 300;
+    margin: 0;
+    padding: 0 0 0 0;
+    color: #fff;
+    line-height: 30px;
+	text-transform:none;
+	letter-spacing:normal;
+	text-align:left;
+}
+.token-box span
+{
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0;
+	text-transform:none;
+	letter-spacing:normal;
+    padding: 0 0 0 0;
+    color: #fff;
+    line-height: 25px;
+	text-align:left;
+}
+.right
+{
+	height:353px
+}
+.contact-box
+ {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 60px;
+	border-radius: 10px;
+    float: left;
+	background-color:#0088ab;
+	border:1px solid #fff;
+}
+.contact-box h2 
+{
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+    margin: 0;
+    padding: 0 0 60px 0;
+    text-align: center;
+}
+.footer .form-group 
+{
+    margin-bottom: 6px !important;
+}
+.contact_input, .message_input 
+{
+    border: none;
+    font-size: 14px;
+    color: #727272;
+    font-weight: 400;
+    width: 100%;
+    margin: 0 0 5px 0;
+    padding: 11px 0 11px 15px;
+    background-color: #fff;
+    outline: none;
+    border-radius: 4px;
+}
+.message_input 
+{
+    padding: 11px 0 11px 15px;
+	height:200px;
+}
+.message
+{
+	margin:0 !important;
+}
+.send_btn 
+{
+    font-size: 14px;
+    font-weight: 600;
+    background-color: #4ec9f5;
+    color: #fff;
+    padding: 11px 35px;
+    margin: 0;
+	 border-radius: 4px;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    border: none;
+	width:100%;
+    outline: none;
+}
+.social-part {
+    padding: 50px 0;
+    float: right;
+}
+.social-part ul 
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.social-part ul li 
+{
+    padding: 0 13px 0 0;
+    float: left;
+}
+.left_footer p
+{
+	font-size: 14px;
+    font-weight: 400;
+    margin: 0;
+    padding: 60px 0;
+    color: #4ec9f5;
+    line-height: 25px;
+	text-align:left;
+}
+
+.funding-box-left:after
+{
+	content: "";
+    display: block;
+    border: 12px solid transparent;
+    border-left-color: #0088ab;
+    position: absolute;
+    top: 60px;
+    right: -26px;
+    width: 26px;
+    margin: 0 auto;
+}
+.vision-box-right:after
+{
+	content: "";
+    display: block;
+    border: 12px solid transparent;
+    border-left-color: #fff;
+    position: absolute;
+    top: 60px;
+    right: -26px;
+    z-index: 99999;
+    width: 26px;
+    margin: 0 auto;
+}
+.safety-box-right:after
+{
+	content: "";
+    display: block;
+    border: 12px solid transparent;
+    border-left-color: #fff;
+    position: relative;
+    top: -190px;
+    float: right;
+    left: 76px;
+    z-index: 99999;
+    width: 26px;
+}
+.security-box-left:after
+{
+	    content: "";
+    display: block;
+    border: 12px solid transparent;
+    border-left-color: #60bbde;
+    position: relative;
+    top: -210px;
+    right: 177px;
+    width: 26px;
+    margin: 0 auto;
+}
+.application img
+{
+	margin: 0 auto	
+}
+.power_tech img 
+{
+	width:100%;
+	margin:0 auto;
+}
+.under_bec p
+{
+	font-size: 14px;
+    line-height: 24px;
+    color: #949494;
+    margin: 0;
+    padding: 0 0 40px 0;
+}
+.lenr_bec th
+{
+	padding:30px 0;
+}
+.lenr_bec tbody
+{
+	
+}
+.scroll_nav {
+    position: fixed;
+    background: transparent;
+    z-index: 99;
+    left: 30px;
+    text-align: center;
+    top: 35%;
+}
+.scroll_nav .navbar-nav>li {
+    float: none;
+}
+#myNavbar>li.active a {
+    color: #003267 !important;
+    font-size: 20px !important;
+}
+.scroll_nav a {
+    font-weight: 900;
+    display: inline-block;
+    width: 100%;
+    float: left;
+    -webkit-transition: font-size .2s ease,color .2s ease;
+    transition: font-size .2s ease,color .2s ease;
+    color: #0088ab;
+    font-size: 20px;
+    text-decoration: none;
+    line-height: 24px;
+}
+.scroll_nav .nav>li>a {
+    position: relative;
+    display: block;
+    padding: 0px 15px;
+}
+.scroll_nav .nav>li>a:focus
+{
+    background-color: inherit;
+}
+@media screen and (max-width: 480px) and (min-width: 320px){
+    .contact-box{
+            padding: 40px 10px;
+    }
+    .future_use{
+            padding: 0 15px;
+    }
+    .logo img{
+            margin: 0 auto;
+            padding: 0 0 20px 0;
+    }
+    .header_menu{
+            width: 100%;
+            padding: 0;
+    }
+    .navbar-toggle{
+        border: 1px solid #fff;
+        float: left;
+        margin: 0;
+    }
+    .navbar-toggle .icon-bar{
+            background: #fff;
+    }
+    .contact_check{
+        width: 100%;
+    float: right;
+    position: absolute;
+    max-width: 200px;
+    top: 60px;
+     
+    right: 0;
+    }
+    .slider .main_slider{
+            top: 160px;
+    }
+    .slider_content p{
+        font-size: 20px;
+    }
+    .slider_content h1{
+        font-size: 25px;
+    }
+    .slider_content{
+            margin: 30px auto 0;
+    }
+    .white_left,.yellow-right{
+        width: 100%;
+        float: right;
+       
+    }
+    .white-btn{
+        padding: 10px 25px 10px 25px;
+    }
+    .about_content{
+        padding:0;
+    }
+    .about{
+        text-align: center;
+    }
+    .bec_glance .padding{
+        padding-top: 50px;
+    }
+    .bec_glance h3{
+        margin: 60px auto 0;
+
+    }
+    h3 ,.board-members h3{
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .technology h2, .meet-team-hedding h2, .timeline h2, .faq h2, .token h2{
+            font-size: 20px;
+    }
+    .board-members p{
+        padding: 10px 0 60px 0;
+    }
+    .bec_glance img {
+        margin: 0 auto 30px;
+    }
+    .technology-method h3{
+        font-size: 20px;
+    }
+    .meet-team-box-text{
+        height: 130px;
+    }
+    .social-part{
+            width: 40%;
+        margin: 0 auto;
+        text-align: center;
+        float: none;
+    }
+    .left_footer p{
+            padding: 60px 0 0;
+            text-align: center;
+    }
+    .social-part ul li{
+        margin: 0 auto;
+    width: 50%;
+    }
+    .boadre_box {
+        height: 420px;
+    }
+}
+
+@media screen and (max-width: 640px) and (min-width: 481px){
+    .contact-box{
+            padding: 40px 10px;
+    }
+    .future_use{
+            padding: 0 15px;
+    }
+    .logo img{
+            margin: 0 auto;
+            padding: 0 0 20px 0;
+    }
+    .header_menu{
+            width: 100%;
+            padding: 0;
+    }
+    .navbar-toggle{
+        border: 1px solid #fff;
+        float: left;
+        margin: 0;
+    }
+    .navbar-toggle .icon-bar{
+            background: #fff;
+    }
+    .contact_check{
+        width: 100%;
+    float: right;
+    position: absolute;
+    max-width: 200px;
+    top: 60px;
+     
+    right: 0;
+    }
+    .slider .main_slider{
+            top: 160px;
+    }
+    .slider_content p{
+        font-size: 20px;
+    }
+    .slider_content h1{
+        font-size: 25px;
+    }
+    .slider_content{
+            margin: 30px auto 0;
+    }
+    .white_left,.yellow-right{
+        width: 100%;
+        float: right;
+       
+    }
+    .white-btn{
+        padding: 10px 25px 10px 25px;
+    }
+    .about_content{
+        padding:0;
+    }
+    .about{
+        text-align: center;
+    }
+    .bec_glance .padding{
+        padding-top: 50px;
+    }
+    .bec_glance h3{
+        margin: 60px auto 0;
+
+    }
+    h3 ,.board-members h3{
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .technology h2, .meet-team-hedding h2, .timeline h2, .faq h2, .token h2{
+            font-size: 20px;
+    }
+    .board-members p{
+        padding: 10px 0 60px 0;
+    }
+    .bec_glance img {
+        margin: 0 auto 30px;
+    }
+    .technology-method h3{
+        font-size: 20px;
+    }
+    .meet-team-box-text {
+    height: 150px;
+}
+    .social-part{
+            width: 40%;
+        margin: 0 auto;
+        text-align: center;
+        float: none;
+    }
+    .left_footer p{
+            padding: 60px 0 0;
+            text-align: center;
+    }
+    .social-part ul li{
+        margin: 0 auto;
+    width: 50%;
+    }
+    .boadre_box {
+        height: 420px;
+    }
+    .meet-team-box-part {
+        padding: 0 100px 40px 100px;
+    }
+}
+@media screen and (max-width: 767px) and (min-width: 641px){
+    .contact-box{
+            padding: 40px 10px;
+    }
+    .future_use{
+            padding: 0 15px;
+    }
+    .logo img{
+            margin: 0 auto;
+            padding: 0 0 20px 0;
+    }
+    .header_menu{
+            width: 100%;
+            padding: 0;
+    }
+    .navbar-toggle{
+        border: 1px solid #fff;
+        float: left;
+        margin: 0;
+    }
+    .navbar-toggle .icon-bar{
+            background: #fff;
+    }
+    .contact_check{
+        width: 100%;
+    float: right;
+    position: absolute;
+    max-width: 200px;
+    top: 60px;
+     
+    right: 0;
+    }
+    .slider .main_slider{
+            top: 160px;
+    }
+    .slider_content p{
+        font-size: 20px;
+    }
+    .slider_content h1{
+        font-size: 25px;
+    }
+    .slider_content{
+            margin: 30px auto 0;
+    }
+    .white_left,.yellow-right{
+        width: 100%;
+        float: right;
+       
+    }
+    .white-btn{
+        padding: 10px 25px 10px 25px;
+    }
+    .about_content{
+        padding:0;
+    }
+    .about{
+        text-align: center;
+    }
+    .bec_glance .padding{
+        padding-top: 50px;
+    }
+    .bec_glance h3{
+        margin: 60px auto 0;
+
+    }
+    h3 ,.board-members h3{
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .technology h2, .meet-team-hedding h2, .timeline h2, .faq h2, .token h2{
+            font-size: 20px;
+    }
+    .board-members p{
+        padding: 10px 0 60px 0;
+    }
+    .bec_glance img {
+        margin: 0 auto 30px;
+    }
+    .technology-method h3{
+        font-size: 20px;
+    }
+    .meet-team-box-text{
+        height: 130px;
+    }
+    .social-part{
+            width: 40%;
+        margin: 0 auto;
+        text-align: center;
+        float: none;
+    }
+    .left_footer p{
+            padding: 60px 0 0;
+            text-align: center;
+    }
+    .social-part ul li{
+        margin: 0 auto;
+    width: 50%;
+    }
+    .boadre_box {
+        height: 420px;
+    }
+}
+
+
+
