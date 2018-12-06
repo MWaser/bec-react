@@ -11,7 +11,7 @@ require_once './vendor/autoload.php';
 use FormGuide\Handlx\FormHandler;
 
 
-$pp = new FormHandler(); 
+$pp = new FormHandler();
 
 $validator = $pp->getValidator();
 $validator->fields(['name','phone','email'])->areRequired()->maxLength(50);
@@ -21,10 +21,10 @@ $validator->field('company_name')->maxLength(60);
 $validator->field('company_url')->maxLength(60);
 $validator->field('message')->maxLength(6000);
 
- 
 
 
 
-$pp->sendEmailTo('info@bec.foundation'); // ← Your email here
+
+$pp->sendEmailTo('daniel@blockblox.io'); // ← Your email here
 
 echo $pp->process($_POST);
