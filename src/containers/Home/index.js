@@ -57,7 +57,7 @@ class Home extends React.Component {
                                 </div>
                             </div>
                             <div className="col-lg-2 col-md-2 col-sm-2 col-xs-12 contact_check padding">
-                                <a className="contact-btn" href="#contact">Join the Waitlist</a>
+                                <a className="contact-btn" href="#contact">Pre-qualify now</a>
                             </div>
                         </div>
                     </div>
@@ -74,7 +74,7 @@ class Home extends React.Component {
                                 <a target="_blank" rel="noopener noreferrer" className="white-btn" href="https://bec.foundation/White-Paper.pdf">Fund Details</a>
                             </div>
                             <div className="col-lg-3 col-md-3 col-sm-3 col-xs-12 yellow-right padding">
-                                <a target="_blank" rel="noopener noreferrer"  className="white-btn" href="https://bec.foundation/Yellow-Paper.pdf">Visit Brillouin Energy Site</a>
+                                <a target="_blank" rel="noopener noreferrer"  className="white-btn" href="http://brillouinenergy.com">Visit Brillouin Energy Site</a>
                             </div>
                             
                             <div className="slider_content">
