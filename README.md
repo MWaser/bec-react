@@ -1,12 +1,11 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Deploy guide
-1. Run `yarn build` or `npm run build` on localhost
-2. Zip build directory and rename it as `bec-php.zip`
-3. Upload that zip file to EC2 server
-4. Remove already existing `bec-php` directory on EC2 server
-5. Unzip `bec-php.zip` on EC2 server
-6. Restart apache server by running `docker restart hopeful_roentgen`
+1. Pull the latest commit from github on EC2 Server
+2. `npm install`
+3. `npm run build`
+4. `docker build --rm -f Dockerfile -t bec-react:latest .`
+5. `docker run --rm -d -p 80:80 bec-react:latest`
 
 ## Available Scripts
 
