@@ -318,10 +318,10 @@ class Home extends React.Component {
                                 <div className="col-lg-10 col-md-10 col-sm-10 col-xs-12 ">
                                     <div className="contact-description">
                                         <p>
-                                            There is an opportunity for up to 299 US investors and up to 1,800 non-US investors to participate in this fund. Access to the fund will be on a first come, first served basis, beginning soon.
+                                            There is an opportunity for up to 299 US investors and up to 1,700 non-US investors to participate in this fund. Access to the fund will be on a first come, first served basis, beginning soon.
                                         </p> 
                                         <p>
-                                            The minimum investment in this fund is 27,000 USD. Register here to get on the waitlist and receive advanced notice when the units in the fund become for sale.
+                                            The minimum investment in this fund is 24,750 EUR. Register here to get on the waitlist and receive advanced notice when the units in the fund become for sale.
                                         </p>
                                     </div>
                                     <div className="form-group">
