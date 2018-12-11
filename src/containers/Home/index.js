@@ -8,6 +8,8 @@ import teamImg1 from '../../assets/team-img-1.png';
 import teamImg2 from '../../assets/team-img-2.png';
 import teamImg4 from '../../assets/team-img-4.png';
 import teamImg5 from '../../assets/team-img-5.png';
+import teamImg6 from '../../assets/marco.png';
+import teamImg7 from '../../assets/shar.png';
 import davidNiebauer from '../../assets/David_Niebauer.jpg';
 import img2009 from '../../assets/2009-img.png';
 import img2020 from '../../assets/2020-img.png';
@@ -132,6 +134,7 @@ class Home extends React.Component {
                         </div>
 
                         <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12 meet-team-box-part padding" style={{padding: '0 0 100px 90px'}}>
+                            <div className="col-lg-2 col-md-2 col-sm-2 col-xs-12 padding"></div>
                             <div className="col-lg-3 col-md-3 col-sm-3 col-xs-12 padding">
                                 <div className="meet-team-box hovereffect">
                                     <img src={teamImg1} alt="" className="img-responsive" />
@@ -141,7 +144,6 @@ class Home extends React.Component {
                                         <p className="show-read-more">Bob has a broad based technical leadership career spanning over 40 years. He has led several companies as a CEO
                                         including Commerce Direct Systems, Inc., Imagineering International, Inc., and Denning Mobile Robotics, Inc., which he successfully took public and managed for over a decade.</p>
                                     </div>
-                                        
                                 </div>
                             </div>
 
@@ -161,27 +163,16 @@ class Home extends React.Component {
                             </div>
 
                             <div className="col-lg-1 col-md-1 col-sm-1 col-xs-12 padding"></div>
-
-                            <div className="col-lg-3 col-md-3 col-sm-3 col-xs-12 padding">
-                                <div className="meet-team-box hovereffect">
-                                    <img src={davidNiebauer} alt="" className="img-responsive" />
-                                    <h3 className="meet_team">David Niebauer <br/> VP, Business Development & General Counsel</h3>
-                                    <div className="meet-team-box-text overlay">
-                                        <h3>David Niebauer <br/> VP, Business Development & General Counsel</h3>
-                                        <p className="show-read-more">Mr. Niebauer is a practicing securities law attorney with 25 years senior legal and business <span className="morecontent">development experience in venture capital finance, M&A and general corporate representation.David has extensive experience representing clean-technology ventures at all stages of growth including contract negotiations, corporate finance, intellectual property strategy, licensing and executive management.</span></p>
-                                    </div>
-                                </div>
-                            </div>
                         </div>
 
                         <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12 meet-team-box-part padding" style={{padding: '0 0 100px 90px'}}>
                             <div className="col-lg-2 col-md-2 col-sm-2 col-xs-12 padding"></div>
                             <div className="col-lg-3 col-md-3 col-sm-3 col-xs-12 padding">
                                 <div className="meet-team-box hovereffect">
-                                    <img src={teamImg4} alt="" className="img-responsive" />
-                                    <h3 className="meet_team">David Firshein <br/> Chief Financial Officer</h3>
+                                    <img src={teamImg6} alt="" className="img-responsive" />
+                                    <h3 className="meet_team">Marco Aniballi <br/> Administrator</h3>
                                     <div className="meet-team-box-text overlay">
-                                        <h3>David Firshein <br/> Chief Financial Officer</h3>
+                                        <h3>Marco Aniballi <br/> Administrator</h3>
                                         <p className="show-read-more">Mr. Firshein has over 30 years of senior corporate finance, investment banking, and venture <span className="morecontent">management experience.  He has directly completed over $900 million of debt and  equity transactions for developing small to large companies including multiple environmentally oriented or cleantech ventures.</span></p>
                                     </div>
                                 </div>
@@ -191,11 +182,11 @@ class Home extends React.Component {
 
                             <div className="col-lg-3 col-md-3 col-sm-3 col-xs-12 padding">
                                 <div className="meet-team-box hovereffect">
-                                    <img src={teamImg5} alt="" className="img-responsive" />
-                                    <h3 className="meet_team">David Correia <br/> Mechanical Engineering Manager</h3>
+                                    <img src={teamImg7} alt="" className="img-responsive" />
+                                    <h3 className="meet_team">Shar <br/> Legal Counsel</h3>
                                     <div className="meet-team-box-text overlay">
-                                        <h3>David Correia <br/> Mechanical Engineering Manager</h3>
-                                    <p className="show-read-more">Mr. Correia brings over 30 years experience developing new process equipment and <span className="morecontent">mechanical designs that use chemical reactions to complete process steps for manufacturing. He is highly skilled in troubleshooting chemical and mechanical systems, and bringing those solutions to market.</span></p>
+                                        <h3>Shar <br/> Legal Counsel</h3>
+                                        <p className="show-read-more">Shah brings a wealth of institutional knowledge with roles at UBS AG, D.E. Shaw & Co and public service as a regulator at the U.S. Securities and Exchange Commission. Most importantly, he was an early adopter of cryptocurrency and brings a unique perspective in our regulatory discussions and collaborations.</p>
                                     </div>
                                 </div>
                             </div>
