@@ -71,7 +71,7 @@ class Home extends React.Component {
                         <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12 main_slider padding">
                             <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 padding"></div>
                             <div className="col-lg-3 col-md-3 col-sm-3 col-xs-12 white_left padding">
-                                <a target="_blank" rel="noopener noreferrer" className="white-btn" href="https://bec.foundation/White-Paper.pdf">Fund Details</a>
+                                <a className="white-btn" href="#token">Fund Details</a>
                             </div>
                             <div className="col-lg-3 col-md-3 col-sm-3 col-xs-12 yellow-right padding">
                                 <a target="_blank" rel="noopener noreferrer"  className="white-btn" href="http://brillouinenergy.com">Visit Brillouin Energy Site</a>
@@ -100,7 +100,10 @@ class Home extends React.Component {
                             <div className="col-lg-6 col-md-6 col-sm-6 col-xs-12  about_content  padding">
                                 <img src={titleLine} alt="" />
                                 <h4>WHAT IS BEC LTD.?</h4>
-                                <p>BEC Ltd. has secured the rights to Brillouin Energy Corp.’s Series D preferred shares offering and is raising funds to acquire the shares. Unit holders in the fund will receive dividends under the terms of the preferred.<br/><br/></p>
+                                <p>
+                                    BEC Ltd. has secured the rights to Brillouin Energy Corp.’s Series D preferred shares offering and is raising funds to acquire the shares. Unit holders in the fund will receive dividends under the terms of the preferred. <br/><br/>
+                                    <a href="#">Read on to learn more…</a>
+                                </p>
                             </div>
                             <div className="col-lg-6 col-md-6 col-sm-6 col-xs-12 iframe  padding">
                                 
@@ -198,214 +201,8 @@ class Home extends React.Component {
                             <div className="col-lg-1 col-md-1 col-sm-1 col-xs-12 padding"></div>
                         </div>
 
-                        <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12 board-members text-center padding">
-
-                            <h3>Technical and Business Advisory Board Members</h3>
-
-                            <span>Yifo Guo</span>
-                            <p>A renown design engineer of innovative solutions for rapidly growing markets, Roger
-                            Fuller isco-founder and the senior scientist at Maxim Integrated Products (MXIM) where he was instrumental in designing MAX 1780 smart and flash memory battery chips.</p>
-
-                            <span>Roger W. Fuller</span>
-                            <p>A renown design engineer of innovative solutions for rapidly growing markets, Roger
-                                Fuller isco-founder and the senior scientist at Maxim Integrated Products (MXIM) where he was instrumental in designing MAX 1780 smart and flash memory battery chips.</p>
-
-                            <span>Robert Clear</span>
-                            <p>Mr. Clear holds a PhD Chemistry UCSD, and serves as a guest lecturer at Cal Poly and
-                            staff scientist for Lawrence Berkeley Labs in Applied Science Division. He is the authorand co-author of thirty publications on energy issues and lighting.</p>
-
-                            <span>Dr. Francis Tanzella</span>
-                            <p>Dr. Tanzella has helped develop the low energy nuclear reactions
-                            (LENR) electrochemical and calorimetry program at SRI, and has been 
-                            instrumental in the advancement of the field since its inception.</p>
-
-                            <span>Carl Page</span>
-                            <p>Carl Page is currently President of the Anthropocene Institute. He is a highly sought after
-                            entrepreneur, an advisor to technology, internet marketing, and emerging cleantech
-                            companies,as well as a prominent investor in both hi-tech and cleantech ventures. A
-                            highly skilled computer scientist and clean technologist, Mr. Page was a co-founder of
-                            E-Groups, which later became Yahoo Groups.</p>
-
-
-                            <span>Adolfo O. Gutierrez</span>
-
-                            <p>Adolfo Gutierrez holds a PhD Engineering Physics Rensselaer Polytech (RPI), and
-                            serves as executive director and co-founder of Southern Pacific Research Institute for
-                            Advanced Technologies (SEPARI) in Chile. SEPARI conducts collaborative science and
-                            engineering research efforts in Chile and abroad.</p>
-                        </div>
-
                     </div>
                 </div> 
-
-                <div className="timeline" id="timeline"> 
-                    <div className="container" id="timeline_slider">
-                        <div className="row">
-                            <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12 bec_glance  padding">
-                                <h2>THE BEC TIMELINE</h2>
-                            </div>			
-                        </div>
-                        <div className='row'>
-                            <div className='col-md-offset-2 col-md-8'>
-                                <div className="carousel slide quote-carousel" data-ride="carousel" id="quote-carousel2">
-                                    
-                                    <ol className="carousel-indicators">
-                                    <li data-target="#quote-carousel2" data-slide-to="0" className="active"></li>
-                                    <li data-target="#quote-carousel2" data-slide-to="1"></li>
-                                    <li data-target="#quote-carousel2" data-slide-to="2"></li>
-                                    <li data-target="#quote-carousel2" data-slide-to="3"></li>
-                                    <li data-target="#quote-carousel2" data-slide-to="4"></li>
-                                    <li data-target="#quote-carousel2" data-slide-to="5"></li>
-                                    <li data-target="#quote-carousel2" data-slide-to="6"></li>
-                                    <li data-target="#quote-carousel2" data-slide-to="7"></li>
-                                    <li data-target="#quote-carousel2" data-slide-to="8"></li>
-                                    <li data-target="#quote-carousel2" data-slide-to="9"></li>
-                                    <li data-target="#quote-carousel2" data-slide-to="10"></li>
-                                    <li data-target="#quote-carousel2" data-slide-to="11"></li>
-                                    
-                                    </ol>
-                                    
-                                    <div className="carousel-inner sliderDiv">
-                                    
-                                    <div className="item active">
-                                        <blockquote>
-                                        <div className="row">
-                                            <div className="col-sm-12">
-                                                <img src={img2009} alt="" />                      
-                                                <p style={{paddingTop: '40px'}}>R. Godes founds Brillouin Energy Corp to further develop the LENR project and transfers all IP to Brillouin Energy</p>
-                                            </div>
-                                        </div>
-                                        </blockquote>
-                                    </div>
-                                    <div className="item">
-                                        <blockquote>
-                                        <div className="row">
-                                            <div className="col-sm-12">
-                                                <br/><br/><br/>
-                                            <span>MAY/2012</span>
-                                            <p>Closes Series A round with $2.5 Million raised. Completes collaboration agreement with SRI </p>									  
-                                            </div>
-                                        </div>
-                                        </blockquote>
-                                    </div>
-                                    <div className="item">
-                                        <blockquote>
-                                        <div className="row">
-                                            <div className="col-sm-12">
-                                                <br/><br/><br/>
-                                            <span>AUGUST/2012</span>
-                                            <p>Brillouin Energy signs long term formal scientific research agreement with SRI International (the first of its kind in the LENR field)</p>
-                                            </div>
-                                        </div>
-                                        </blockquote>
-                                    </div>
-                                    <div className="item">
-                                        <blockquote>
-                                        <div className="row">
-                                            <div className="col-sm-12">
-                                                <br/><br/><br/>
-                                            <span>OCTOBER/2013</span>
-                                            <p>Commencement of Phase III Brillouin Wet Boiler fabrication containing water and electrolyte capable of producing 100K BTU – enough to heat an average size US home </p>
-                                            </div>
-                                        </div>
-                                        </blockquote>
-                                    </div>
-                                    <div className="item">
-                                        <blockquote>
-                                        <div className="row">
-                                            <div className="col-sm-12">
-                                                <br/><br/><br/>
-                                            <span>DECEMBER/2013</span>
-                                            <p>Commercial sales breakthrough as Brillouin Energy signs its first paid Licensing Agreement for its CECR Technologies</p>
-                                            </div>
-                                        </div>
-                                        </blockquote>
-                                    </div>							  
-                                    <div className="item">
-                                        <blockquote>
-                                        <div className="row">
-                                            <div className="col-sm-12">
-                                                <br/><br/><br/>
-                                            <span>January/2015</span>
-                                            <p>SRI independently reviews and confirms the accuracy of the Brillouin Hydrogen Hot Tube (HHT) System January test results that produced a 4.13X Coefficient</p>
-                                            </div>
-                                        </div>
-                                        </blockquote>
-                                    </div>
-                                    <div className="item">
-                                        <blockquote>
-                                        <div className="row">
-                                            <div className="col-sm-12">
-                                                <br/><br/><br/>
-                                            <span>JULY/2015</span>
-                                            <p>Brillouin Energy selected as one of the AlwaysOn Global 100 Companies to Watch in Silicon Valley </p>
-                                            </div>
-                                        </div>
-                                        </blockquote>
-                                    </div>
-                                    <div className="item">
-                                        <blockquote>
-                                        <div className="row">
-                                            <div className="col-sm-12">
-                                                <br/><br/><br/>
-                                            <span>January/2017</span>
-                                            <p>Researchers at SRI International issued an Interim Progress Report that states they successfully replicated "over unity" amounts of thermal energy (heat) for Brillouin Energy Corporation's most advanced Isoperibolic ("IPB") Hydrogen Hot Tube™ (HHT™) reactor test systems based on controlled low energy nuclear reactions ("LENR") </p>
-                                            </div>
-                                        </div>
-                                        </blockquote>
-                                    </div>
-                                    <div className="item">
-                                        <blockquote>
-                                        <div className="row">
-                                            <div className="col-sm-12">
-                                                <br/><br/><br/>
-                                            <span>March/2018</span>
-                                            <p>In their 2017 Report, SRI's researchers confirmed that they have continued to successfully replicate "over-unity" amounts of thermal energy (heat) in Brillouin Energy's IPB HHTs, now at materially greater output levels than was seen in their prior replication efforts that were documented in their 2016 Report. SRI conducted extensive review and third-party tests of Brillouin Energy's technology throughout 2017. This included review of considerable test data from Brillouin's four individual IPB HHT™ LENR reactor test systems, plus 34 different HHT™ reactor cores that were designed to increase scaling of power outputs and reactor control </p>
-                                            </div>
-                                        </div>
-                                        </blockquote>
-                                    </div>
-                                    <div className="item">
-                                        <blockquote>
-                                        <div className="row">
-                                            <div className="col-sm-12">
-                                                <br/><br/><br/>
-                                            <span>2018</span>
-                                            <p>Q4 – BEC Token ICO Launch</p>
-                                            </div>
-                                        </div>
-                                        </blockquote>
-                                    </div>
-                                    <div className="item">
-                                        <blockquote>
-                                        <div className="row">
-                                            <div className="col-sm-12">
-                                            <img src={img2020} alt="" />
-                                            <p style={{paddingTop: '40px'}}>BEC introduces<br/> commercial prototype<br/> design</p>
-                                            </div>
-                                        </div>
-                                        </blockquote>
-                                    </div>
-                                    <div className="item">
-                                        <blockquote>
-                                        <div className="row">
-                                            <div className="col-sm-12">
-                                            <img src={img2022} alt="" />
-                                            <p style={{paddingTop: '40px'}}>BEC licenses first<br/> commercial prototype<br/> design for distribution.</p>
-                                            </div>
-                                        </div>
-                                        </blockquote>
-                                    </div>
-                                    
-                                    </div><br/>
-                
-                                    <a data-slide="prev" href="#quote-carousel2" className="sliderarrow left carousel-control"><i className="fa fa-angle-left"></i></a>
-                                    <a data-slide="next" href="#quote-carousel2" className="sliderarrow right carousel-control"><i className="fa fa-angle-right"></i></a>
-                                </div>                          
-                            </div>
-                        </div>
-                    </div>
-                </div>
                 
                 <div className="faq" id="faq">
                     <div className="faq1" id="faq1" style={{paddingTop: '50px'}}>
@@ -479,8 +276,7 @@ class Home extends React.Component {
                                         </div>
                                         <div className="token-box">
                                             <h3>Unit Price: </h3>
-                                            <span>0.12 USD</span>
-                                            <span>450MM</span>-->
+                                            <span>0.12 EUR</span>
                                         </div>
                                     </div>
                                     <div className="col-lg-4 col-md-4 col-sm-4 col-xs-12 future_use  padding">
@@ -497,7 +293,7 @@ class Home extends React.Component {
                                     <ul>
                                     <li>Brillouin Energy Corp. will distribute 20% of its net profit to BEC Ltd. until the total distributed profit reaches five times the initial fund value, after which</li>
                                     <li>Brillouin Energy Corp. will distribute 10% of its net profit to BEC Ltd. until the total distributed profit reaches ten times the initial fund value, after which</li>
-                                    <li>Brillouin Energy Corp. will distribute 10% of its net profit to BEC Ltd. in perpetuity </li>
+                                    <li>Brillouin Energy Corp. will distribute 5% of its net profit to BEC Ltd. in perpetuity </li>
                                     </ul>
                                     <p>BEC Ltd. will distribute all revenues received from Brillouin Energy Corp. to unit holders on a per unit basis equally. </p>
                                 </div>
@@ -515,10 +311,18 @@ class Home extends React.Component {
                             <form id="reused_form">
                                 <h2>Join the Waitlist</h2>
                                 <div className="col-lg-1 col-md-1 col-sm-1 col-xs-12 padding"></div>
-                                
                                 <div className="col-lg-10 col-md-10 col-sm-10 col-xs-12 ">
+                                    <div className="contact-description">
+                                        <p>
+                                            There is an opportunity for up to 299 US investors and up to 1,800 non-US investors to participate in this fund. Access to the fund will be on a first come, first served basis, beginning soon.
+                                        </p> 
+                                        <p>
+                                            The minimum investment in this fund is 27,000 USD. Register here to get on the waitlist and receive advanced notice when the units in the fund become for sale.
+                                        </p>
+                                    </div>
                                     <div className="form-group">
-                                        <input type="text" name="name" className="contact_input" placeholder="First, middle, and last name as it appears on your government issued photo ID" />
+                                        <input type="text" name="name" className="contact_input mobile" placeholder="As it appears on government ID" />
+                                        <input type="text" name="name" className="contact_input desktop" placeholder="First, middle, and last name as it appears on your government issued photo ID" />
                                     </div>
                                     <div className="form-group">
                                         <input type="text" name="email" className="contact_input" placeholder="E-mail" />

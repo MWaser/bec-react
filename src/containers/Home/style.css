@@ -597,7 +597,7 @@ p.descrpation {
     font-weight: 700;
     color: #fff;
     margin: 0;
-    padding: 0 0 60px 0;
+    padding: 0 0 30px 0;
     text-align: center;
 }
 .footer .form-group 
@@ -1895,15 +1895,26 @@ width: 100%;
     content: "\e114";    
 }
 
-.contact-box {
-    display: none;
+.contact-description {
+    color: white;
+    padding-bottom: 30px;
 }
 
-.footer {
-    background: #0088ab;
+@media only screen and (min-width: 768px) {
+    .mobile{
+        display: none;
+    }
+    .desktop {
+        display: inline-block;
+    }
 }
 
-.footer p {
-    color: white !important;
+@media only screen and (max-width: 768px) {
+    .desktop{
+        display: none;
+    }
+    .mobile {
+        display: inline-block;
+    }
 }
  
