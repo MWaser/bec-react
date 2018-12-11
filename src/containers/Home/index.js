@@ -45,8 +45,8 @@ class Home extends React.Component {
                                             </div>
                                             <div className="collapse navbar-collapse" id="myNavbar">
                                                 <ul className="nav navbar-nav">
-                                                    <li className="active"><a href="#about">ABOUT</a></li>
-                                                    <li><a href="#team">TEAM</a></li>
+                                                    <li className="active"><a href="#about">About</a></li>
+                                                    <li><a href="#team">Team</a></li>
                                                     <li><a href="#faq">FAQ</a></li>
                                                     <li><a href="#token">The Fund</a></li>
                                                 </ul>
@@ -78,9 +78,8 @@ class Home extends React.Component {
                             </div>
                             
                             <div className="slider_content">
-                                <h1>WELCOME TO <br/> BEC LTD.</h1>
-                                <p>Funding The evolution of Clean,  
-                                    Low cost, Renewable energy</p>
+                                <h1>WELCOME TO BEC LTD.</h1>
+                                <p>FUNDING THE EVOLUTION OF CLEAN, LOW COST, <br />RENEWABLE ENERGY</p>
                             </div>
                         </div>
                     </div>
@@ -101,7 +100,10 @@ class Home extends React.Component {
                                 <img src={titleLine} alt="" />
                                 <h4>WHAT IS BEC LTD.?</h4>
                                 <p>
-                                    BEC Ltd. has secured the rights to Brillouin Energy Corp.’s Series D preferred shares offering and is raising funds to acquire the shares. Unit holders in the fund will receive dividends under the terms of the preferred. <br/><br/>
+                                    BEC Ltd. is a not for profit corporation that has secured the exclusive rights to
+                                    Brillouin Energy Corp.’s Series D Preferred Share offering and is raising funds
+                                    to acquire the shares. Unit holders in the fund will receive dividends under the
+                                    terms of the Preferred Share Agreement. <br/><br/>
                                     <a href="#">Read on to learn more…</a>
                                 </p>
                             </div>
@@ -126,17 +128,18 @@ class Home extends React.Component {
                 <div className="meet-team" id="team">  
                     <div className="container">
                         <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12 meet-team-hedding text-center padding">
-                            <h2>MEET THE TEAM</h2>
+                            <h2>MEET THE BOARD OF DIRECTORS</h2>
                         </div>
 
                         <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12 meet-team-box-part padding" style={{padding: '0 0 100px 90px'}}>
                             <div className="col-lg-3 col-md-3 col-sm-3 col-xs-12 padding">
                                 <div className="meet-team-box hovereffect">
                                     <img src={teamImg1} alt="" className="img-responsive" />
-                                    <h3 className="meet_team">Robert W. George <br/> II Chief Executive Officer</h3>
+                                    <h3 className="meet_team">Robert W. George II<br/> Chairman</h3>
                                     <div className="meet-team-box-text overlay">
-                                        <h3>Robert W. George <br/> II Chief Executive Officer</h3>
-                                        <p className="show-read-more">Bob has a broad based technical leadership career spanning over 40 years.  He has led several <span className="morecontent">companies as a CEO including Commerce Direct Systems, Inc., Imagineering International, Inc., and Denning Mobile Robotics, Inc., which he successfully took public and managed for over a decade.</span></p>
+                                        <h3>Robert W. George II<br/> Chairman</h3>
+                                        <p className="show-read-more">Bob has a broad based technical leadership career spanning over 40 years. He has led several companies as a CEO
+                                        including Commerce Direct Systems, Inc., Imagineering International, Inc., and Denning Mobile Robotics, Inc., which he successfully took public and managed for over a decade.</p>
                                     </div>
                                         
                                 </div>
@@ -147,13 +150,12 @@ class Home extends React.Component {
                             <div className="col-lg-3 col-md-3 col-sm-3 col-xs-12 padding">
                                 <div className="meet-team-box hovereffect">
                                     <img src={teamImg2} alt="" className="img-responsive" />
-                                    <h3 className="meet_team">Robert Godes <br/> Founder, President and Chief Technology Officer</h3>
+                                    <h3 className="meet_team">Robert Godes <br/> Board Member</h3>
                                     <div className="meet-team-box-text overlay">
-                                        <h3 >Robert Godes <br/> Founder, President and Chief Technology Officer</h3>
-                                        <p className="show-read-more"> <span className="first_data">After 25 years experience as an  innovator in identifying and developing various clean <span className="morecontent">technology products, Robert Godes founded Brillouin Energy. He has closely studied and has a deep understanding of applied science,most engineering disciplines, quantum mechanics,general physics, high energy and condensed matter physics, electronics,most engineering disciplines, </span></span><span className="sec_data show-read-more2" > quantum mechanics,general physics, high energy and condensed matter physics, electronics, control systems,programming, and electro chemistry. Mr. Godes holds a B.Sc. in Electrical Engineering from Ohio Northern University.including product design and commercialization, and in providing creative <br/> 
+                                        <h3 >Robert Godes <br/> Board Member</h3>
+                                        <p className="show-read-more"> <span className="first_data">After 25 years experience as an innovator in identifying and developing various clean <span className="morecontent">technology products, Robert Godes founded Brillouin Energy. He has closely studied and has a deep understanding of applied science,most engineering disciplines, quantum mechanics,general physics, high energy and condensed matter physics, electronics,most engineering disciplines, </span></span><span className="sec_data show-read-more2" > quantum mechanics,general physics, high energy and condensed matter physics, electronics, control systems,programming, and electro chemistry. Mr. Godes holds a B.Sc. in Electrical Engineering from Ohio Northern University.including product design and commercialization, and in providing creative <br/> 
                                         <a href="javascript:void(0);" className="prev"> {'<< '}prev</a>     
                                         <a href="javascript:void(0);" className="sec_next">next{' >>'}</a></span><span className="hide_data " > solutions for product development, marketing and international licensing and joint ventures. Previously he was CEO of several companies including Commerce Direct Systems, Inc. Napa, CA, Imagineering International, Inc., Nashua, NH and Denning Mobile Robotics, Inc. Wilmington, MA. <br/><a href="javascript:void(0);" className="prev2"> {'<< '}prev</a></span></p>
-
                                     </div>
                                 </div>
                             </div>
@@ -276,7 +278,7 @@ class Home extends React.Component {
                                         </div>
                                         <div className="token-box">
                                             <h3>Unit Price: </h3>
-                                            <span>0.12 EUR</span>
+                                            <span>0.11 EUR</span>
                                         </div>
                                     </div>
                                     <div className="col-lg-4 col-md-4 col-sm-4 col-xs-12 future_use  padding">
@@ -291,11 +293,13 @@ class Home extends React.Component {
                                 <div className="col-lg-6 col-md-6 col-sm-6 col-xs-12 purchase_token  padding">						
                                     <p>With the fund's proceeds, BEC Ltd. will purchase from Brillouin Energy Corp. a dedicated class of preferred stock established in its charter, with the following terms.</p>
                                     <ul>
-                                    <li>Brillouin Energy Corp. will distribute 20% of its net profit to BEC Ltd. until the total distributed profit reaches five times the initial fund value, after which</li>
-                                    <li>Brillouin Energy Corp. will distribute 10% of its net profit to BEC Ltd. until the total distributed profit reaches ten times the initial fund value, after which</li>
-                                    <li>Brillouin Energy Corp. will distribute 5% of its net profit to BEC Ltd. in perpetuity </li>
+                                    <li>Brillouin Energy Corp. will distribute 20% of its net profit to BEC Ltd. until the total
+                                    distributed profit reaches five times the initial fund value, after which</li>
+                                    <li>Brillouin Energy Corp. will distribute 10% of its net profit to BEC Ltd. until the total
+                                    distributed profit reaches ten times the initial fund value, after which</li>
+                                    <li>Brillouin Energy Corp. will distribute 5% of its net profit to BEC Ltd. in perpetuity</li>
                                     </ul>
-                                    <p>BEC Ltd. will distribute all revenues received from Brillouin Energy Corp. to unit holders on a per unit basis equally. </p>
+                                    <p>BEC Ltd. will distribute all revenues received from Brillouin Energy Corp. to unit holders equally on a per unit basis.</p>
                                 </div>
                                 
                         </div>
