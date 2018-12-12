@@ -16,6 +16,7 @@ import img2020 from '../../assets/2020-img.png';
 import img2022 from '../../assets/2022-img.png';
 import socialIcon1 from '../../assets/social-icon-1.png';
 import socialIcon2 from '../../assets/social-icon-2.png';
+import chartImg from '../../assets/Projections.jpg';
 
 class Home extends React.Component {
 
@@ -226,6 +227,8 @@ class Home extends React.Component {
 
                             <h4>How long until I get to 5X return?</h4>
                             <p>We don't know, but here's a projection based on conservative estimates. </p><br/><br/>
+                            <img src={chartImg} className="img-responsive" alt="" />
+                            <br/><br/>
 
                             <h4>Do I have to pass KYC to participate?</h4>
                             <p>Yes. </p><br/><br/>
@@ -259,40 +262,15 @@ class Home extends React.Component {
                         </div>
                         
                         <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12 token_create padding">
-                                <div className="col-lg-6 col-md-6 col-sm-6 col-xs-12 sold_token  padding">
-                                    <div className="col-lg-8 col-md-8 col-sm-8 col-xs-12 Tranche_token ">
-                                        <div className="token-box">
-                                            <h3>Total Units in Fund: </h3>
-                                            <span>1B</span><br/><br/>
-                                            <h3>Total Units to be Sold: </h3>
-                                            <span>900M</span>
-                                        </div>
-                                        <div className="token-box">
-                                            <h3>Unit Price: </h3>
-                                            <span>0.11 EUR</span>
-                                        </div>
-                                    </div>
-                                    <div className="col-lg-4 col-md-4 col-sm-4 col-xs-12 future_use  padding">
-                                        <div className="token-box right">
-                                            <h3>Units Reserved for Operations:</h3><br/><br/>
-                                            <span>100M</span>
-                                            
-                                        </div>
-                                    </div>
-                                    
-                                </div>
-                                <div className="col-lg-6 col-md-6 col-sm-6 col-xs-12 purchase_token  padding">						
-                                    <p>With the fund's proceeds, BEC Ltd. will purchase from Brillouin Energy Corp. a dedicated class of preferred stock established in its charter, with the following terms.</p>
-                                    <ul>
-                                    <li>Brillouin Energy Corp. will distribute 20% of its net profit to BEC Ltd. until the total
-                                    distributed profit reaches five times the initial fund value, after which</li>
-                                    <li>Brillouin Energy Corp. will distribute 10% of its net profit to BEC Ltd. until the total
-                                    distributed profit reaches ten times the initial fund value, after which</li>
-                                    <li>Brillouin Energy Corp. will distribute 5% of its net profit to BEC Ltd. in perpetuity</li>
-                                    </ul>
-                                    <p>BEC Ltd. will distribute all revenues received from Brillouin Energy Corp. to unit holders equally on a per unit basis.</p>
-                                </div>
-                                
+                            <p>With the fund's proceeds, BEC Ltd. will purchase from Brillouin Energy Corp. a dedicated class of preferred stock established in its charter, with the following terms.</p>
+                            <ul>
+                            <li>Brillouin Energy Corp. will distribute 20% of its net profit to BEC Ltd. until the total
+                            distributed profit reaches five times the initial fund value, after which</li>
+                            <li>Brillouin Energy Corp. will distribute 10% of its net profit to BEC Ltd. until the total
+                            distributed profit reaches ten times the initial fund value, after which</li>
+                            <li>Brillouin Energy Corp. will distribute 5% of its net profit to BEC Ltd. in perpetuity</li>
+                            </ul>
+                            <p>BEC Ltd. will distribute all revenues received from Brillouin Energy Corp. to unit holders equally on a per unit basis.</p>  
                         </div>
                         </div>
                 </div>
