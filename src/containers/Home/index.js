@@ -163,7 +163,7 @@ class Home extends React.Component {
                                     Brillouin Energy Corp.’s Series D Preferred Share offering and is raising funds
                                     to acquire the shares. Unit holders in the fund will receive dividends under the
                                     terms of the Preferred Share Agreement. <br/><br/>
-                                    <a href="#">Read on to learn more…</a>
+                                    <a href="#token">Read on to learn more…</a>
                                 </p>
                             </div>
                             <div className="col-lg-6 col-md-6 col-sm-6 col-xs-12 iframe  padding">
@@ -191,7 +191,7 @@ class Home extends React.Component {
                         </div>
 
                         <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12 meet-team-box-part padding" style={{padding: '0 0 100px 90px'}}>
-                            <div className="col-lg-2 col-md-2 col-sm-2 col-xs-12 padding"></div>
+                            {/* <div className="col-lg-2 col-md-2 col-sm-2 col-xs-12 padding"></div> */}
                             <div className="col-lg-3 col-md-3 col-sm-3 col-xs-12 padding">
                                 <div className="meet-team-box hovereffect">
                                     <img src={teamImg1} alt="" className="img-responsive" />
@@ -220,9 +220,22 @@ class Home extends React.Component {
                             </div>
 
                             <div className="col-lg-1 col-md-1 col-sm-1 col-xs-12 padding"></div>
+
+                            <div className="col-lg-3 col-md-3 col-sm-3 col-xs-12 padding">
+                                <div className="meet-team-box hovereffect">
+                                    <img src={teamImg6} alt="" className="img-responsive" />
+                                    <h3 className="meet_team">Marco Aniballi <br/> Administrator</h3>
+                                    <div className="meet-team-box-text overlay">
+                                        <h3>Marco Aniballi <br/> Administrator</h3>
+                                        <p>
+                                        Marco is a veteran entrepreneur, strategist and consultant. He began working with startups in the mid 80s and aside from a 4 year stint at Microsoft Corp, has been working with, for or in startups for nearly 30 years. For BEC Ltd. Marco will act as an initial board member as well as oversee the operations of the Company focussing on making unitholder communications and dividend processing as frictionless as possible.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
 
-                        <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12 meet-team-box-part padding" style={{padding: '0 0 100px 90px'}}>
+                        {/* <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12 meet-team-box-part padding" style={{padding: '0 0 100px 90px'}}>
                             <div className="col-lg-2 col-md-2 col-sm-2 col-xs-12 padding"></div>
                             <div className="col-lg-3 col-md-3 col-sm-3 col-xs-12 padding">
                                 <div className="meet-team-box hovereffect">
@@ -251,7 +264,7 @@ class Home extends React.Component {
                             </div>
 
                             <div className="col-lg-1 col-md-1 col-sm-1 col-xs-12 padding"></div>
-                        </div>
+                        </div> */}
 
                     </div>
                 </div> 
@@ -320,7 +333,7 @@ class Home extends React.Component {
                         </div>
                         
                         <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12 token_create padding">
-                            <p>With the fund's proceeds, BEC Ltd. will purchase from Brillouin Energy Corp. a dedicated class of preferred stock established in its charter, with the following terms.</p>
+                            <p>There is an opportunity for up to 299 US investors and up to 1,999 total investors to participate in this fund.</p>
                             <ul>
                             <li>Brillouin Energy Corp. will distribute 20% of its net profit to BEC Ltd. until the total
                             distributed profit reaches five times the initial fund value, after which</li>
@@ -366,11 +379,11 @@ class Home extends React.Component {
                                     </div>
                                     <div className="form-group">
                                         <select name="amount" className="contact_input" style={{height: '42px'}} onChange={this.onAmountChange} value={this.state.amount}>
-                                            <option value="">How much do you plan to contribute to the fund?</option>
-                                            <option value="24,750-50,000 EUR">24,750-50,000 EUR</option>
-                                            <option value="50,001-100,000 EUR">50,001-100,000 EUR</option>
-                                            <option value="100,001-500,000 EUR">100,001-500,000 EUR</option>
-                                            <option value="More than 1,000,000 EUR">More than 1,000,000 EUR</option>
+                                            <option value="">What do you plan to contribute to the fund?</option>
+                                            <option value="25,000+ EUR">25,000+ EUR</option>
+                                            <option value="50,000+ EUR">50,000+ EUR</option>
+                                            <option value="100,000+ EUR">100,000+ EUR</option>
+                                            <option value="500,000+ EUR">500,000+ EUR</option>
                                         </select>
                                     </div>
                                     <div className="form-group">
