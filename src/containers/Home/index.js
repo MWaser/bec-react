@@ -18,7 +18,63 @@ import socialIcon1 from '../../assets/social-icon-1.png';
 import socialIcon2 from '../../assets/social-icon-2.png';
 import chartImg from '../../assets/Projections.jpg';
 
+import api from 'utils/api';
+
 class Home extends React.Component {
+
+    state = {
+        firstName: '',
+        lastName: '',
+        email: '',
+        amount: '',
+        contacted: false,
+        loading: false
+    }
+
+    onFirstNameChange = event => {
+        this.setState({
+            firstName: event.target.value
+        });
+    }
+
+    onLastNameChange = event => {
+        this.setState({
+            lastName: event.target.value
+        });
+    }
+
+    onEmailChange = event => {
+        this.setState({
+            email: event.target.value
+        });
+    }
+
+    onAmountChange = event => {
+        this.setState({
+            amount: event.target.value
+        });
+    }
+
+    submitForm = () => {
+        const { firstName, lastName, email, amount } = this.state;
+        if(firstName && lastName && email && amount) {
+            this.setState({loading: true});
+            api({
+                url: `/api/users/`,
+                method: 'Post',
+                data: { firstName, lastName, email, amount }
+            }).then(res=>{
+                this.setState({loading: false});
+                if(res.data.statusType === 'success') {
+                    this.setState({contacted: true}, ()=>{
+                        setTimeout(()=>{
+                            this.setState({contacted: false})
+                        }, 3000);
+                    })
+                }
+            })
+        }
+    }
 
     render() {
 
@@ -112,7 +168,7 @@ class Home extends React.Component {
                             </div>
                             <div className="col-lg-6 col-md-6 col-sm-6 col-xs-12 iframe  padding">
                                 
-                                <iframe title="video" src="https://player.vimeo.com/video/181723082" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                                <iframe title="video" src="https://player.vimeo.com/video/181723082" width="640" height="360" frameBorder="0" webkitallowfullscreen ="true" mozallowfullscreen="true" allowFullScreen></iframe>
                                     
                             </div>
 
@@ -174,7 +230,9 @@ class Home extends React.Component {
                                     <h3 className="meet_team">Marco Aniballi <br/> Administrator</h3>
                                     <div className="meet-team-box-text overlay">
                                         <h3>Marco Aniballi <br/> Administrator</h3>
-                                        <p className="show-read-more">Mr. Firshein has over 30 years of senior corporate finance, investment banking, and venture <span className="morecontent">management experience.  He has directly completed over $900 million of debt and  equity transactions for developing small to large companies including multiple environmentally oriented or cleantech ventures.</span></p>
+                                        <p>
+                                        Marco is a veteran entrepreneur, strategist and consultant. He began working with startups in the mid 80s and aside from a 4 year stint at Microsoft Corp, has been working with, for or in startups for nearly 30 years. For BEC Ltd. Marco will act as an initial board member as well as oversee the operations of the Company focussing on making unitholder communications and dividend processing as frictionless as possible.
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -281,7 +339,7 @@ class Home extends React.Component {
                     <div className="container" id="contact">
                     <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding">
                         <div className="contact-box">
-                            <form id="reused_form">
+                            <div id="reused_form">
                                 <h2>Join the Waitlist</h2>
                                 <div className="col-lg-1 col-md-1 col-sm-1 col-xs-12 padding"></div>
                                 <div className="col-lg-10 col-md-10 col-sm-10 col-xs-12 ">
@@ -293,28 +351,45 @@ class Home extends React.Component {
                                             The minimum investment in this fund is 24,750 EUR. Register here to get on the waitlist and receive advanced notice when the units in the fund become for sale.
                                         </p>
                                     </div>
-                                    <div className="form-group">
+                                    {/* <div className="form-group">
                                         <input type="text" name="name" className="contact_input mobile" placeholder="As it appears on government ID" />
                                         <input type="text" name="name" className="contact_input desktop" placeholder="First, middle, and last name as it appears on your government issued photo ID" />
+                                    </div> */}
+                                    <div className="form-group">
+                                        <input type="text" name="firstName" className="contact_input" placeholder="First Name" onChange={this.onFirstNameChange} value={this.state.firstName}/>
                                     </div>
                                     <div className="form-group">
-                                        <input type="text" name="email" className="contact_input" placeholder="E-mail" />
+                                        <input type="text" name="lastName" className="contact_input" placeholder="Last Name" onChange={this.onLastNameChange} value={this.state.lastName}/>
                                     </div>
                                     <div className="form-group">
-                                        <button type="submit" className="send_btn">Send</button>
+                                        <input type="text" name="email" className="contact_input" placeholder="E-mail" onChange={this.onEmailChange} value={this.state.email}/>
+                                    </div>
+                                    <div className="form-group">
+                                        <select name="amount" className="contact_input" style={{height: '42px'}} onChange={this.onAmountChange} value={this.state.amount}>
+                                            <option value="">How much do you plan to contribute to the fund?</option>
+                                            <option value="24,750-50,000 EUR">24,750-50,000 EUR</option>
+                                            <option value="50,001-100,000 EUR">50,001-100,000 EUR</option>
+                                            <option value="100,001-500,000 EUR">100,001-500,000 EUR</option>
+                                            <option value="More than 1,000,000 EUR">More than 1,000,000 EUR</option>
+                                        </select>
+                                    </div>
+                                    <div className="form-group">
+                                        <button className="send_btn" disabled={this.state.loading} onClick={this.submitForm}>Send</button>
                                     </div>
                                 </div>
                                 <div className="col-lg-1 col-md-1 col-sm-1 col-xs-12 padding"></div>
-                            </form>
+                            </div>
                             <div id="error_message" style={{width:'100%', height:'100%', display:'none', float: 'left', color: '#fff',border: '1px solid', padding: '30px 50px'}}>
                                 <h4>
                                     Error
                                 </h4>
                                 Sorry there was an error sending your form. 
                             </div>
-                            <div id="success_message" style={{width:'100%', height:'100%', display:'none', float: 'left', color: '#fff',border: '1px solid', padding: '30px 50px'}}>
-                                <h2>Success! Your Message was Sent Successfully.</h2>
-                            </div>
+                            {this.state.contacted && 
+                                <div id="success_message" style={{width:'100%', height:'100%', float: 'left', color: '#fff',border: '1px solid', padding: '30px 50px'}}>
+                                    <h2>Success! Your Message was Sent Successfully.</h2>
+                                </div>
+                            }
                         </div>
                     </div>
                         <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12 bottom_footer  padding">

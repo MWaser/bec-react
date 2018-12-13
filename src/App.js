@@ -1,14 +1,11 @@
-import React, { Component } from 'react';
-import Home from './containers/Home';
+import React from 'react';
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <Home />
-      </div>
-    );
-  }
-}
+import { withRouter } from 'react-router-dom';
 
-export default App;
+import Routers from './routers';
+
+const App = () => {
+  return <Routers />;
+};
+
+export default withRouter(App);
