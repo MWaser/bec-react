@@ -16,7 +16,7 @@ import img2020 from '../../assets/2020-img.png';
 import img2022 from '../../assets/2022-img.png';
 import socialIcon1 from '../../assets/social-icon-1.png';
 import socialIcon2 from '../../assets/social-icon-2.png';
-import chartImg from '../../assets/Projections.jpg';
+import chartImg from '../../assets/projection.svg';
 
 import api from 'utils/api';
 
