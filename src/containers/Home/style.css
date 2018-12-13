@@ -51,7 +51,7 @@ body{
 .contact-btn {
         background: none;
     border: 3px solid #fff;
-    padding: 10px 40px 10px 40px;
+    padding: 10px;
     color: #fff  !important;
     font-weight: 600;
     font-family: 'Raleway', sans-serif;
@@ -597,7 +597,6 @@ p.descrpation {
     font-weight: 700;
     color: #fff;
     margin: 0;
-    padding: 0 0 30px 0;
     text-align: center;
 }
 .footer .form-group 

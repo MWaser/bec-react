@@ -399,8 +399,8 @@ class Home extends React.Component {
                                 Sorry there was an error sending your form. 
                             </div>
                             {this.state.contacted && 
-                                <div id="success_message" style={{width:'100%', height:'100%', float: 'left', color: '#fff',border: '1px solid', padding: '30px 50px'}}>
-                                    <h2>Success! Your Message was Sent Successfully.</h2>
+                                <div id="success_message" style={{width:'100%', height:'100%', float: 'left', color: '#fff',border: '1px solid', padding: '30px'}}>
+                                    <h2>Thank you for your interest in being a part of the next energy evolution. A representative from BEC Limited will get in touch with you soon!</h2>
                                 </div>
                             }
                         </div>
