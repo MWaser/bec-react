@@ -7,21 +7,47 @@ import './style.css';
 class Users extends React.Component {
 
     state = {
-        users: []
+        users: [],
+        auth: false,
+        password: '',
+        passwordValidation: 'Please enter the password!'
     }
 
-    componentDidMount() {
-        api({
-            url: `/api/users/`,
-            method: 'Get'
-        }).then(res=>{
-            const { data } = res.data;
-            if(data) {
-                this.setState({
-                    users: data
-                });
-            }
-        })
+    onPasswordChange = event => {
+        this.setState({
+            password: event.target.value
+        });
+    }
+
+    submitPassword = () => {
+        if(this.state.password) {
+            api({
+                url: `/api/validate-admin/`,
+                method: 'Post',
+                data: { password: this.state.password }
+            }).then(res=>{
+                if(res.data.statusType === 'success') {
+                    this.setState({
+                        auth: true
+                    });
+                    api({
+                        url: `/api/users/`,
+                        method: 'Get'
+                    }).then(res=>{
+                        const { data } = res.data;
+                        if(data) {
+                            this.setState({
+                                users: data
+                            });
+                        }
+                    })
+                } else {
+                    this.setState({
+                        passwordValidation: 'Password is incorrect!'
+                    });
+                }
+            })
+        } 
     }
 
     render() {
@@ -44,6 +70,7 @@ class Users extends React.Component {
                         </div>
                     </div>
                 </div>
+                {this.state.auth ? 
                 <div className="user-list">
                     <table className="table">
                         <thead>
@@ -68,7 +95,13 @@ class Users extends React.Component {
                         
                         </tbody>
                     </table>
+                </div> : 
+                <div className="fixed-password">
+                    <label>{this.state.passwordValidation}</label>
+                    <input type="password" name="password" className="contact_input" placeholder="Password" onChange={this.onPasswordChange} value={this.state.password}/>
+                    {this.state.password && <button type="submit" onClick={this.submitPassword}>Validate</button>}
                 </div>
+                }
             </div>
         );
     }
