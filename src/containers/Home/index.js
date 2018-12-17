@@ -79,10 +79,10 @@ class Home extends React.Component {
     render() {
 
         return (
-            <div className="wapper">    
+            <div className="wapper">
 
-                <div className="header" id="link-header">  
-                    
+                <div className="header" id="link-header">
+
                     <div className="container">
                         <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12 top_header padding">
 
@@ -98,9 +98,9 @@ class Home extends React.Component {
                                                 <button type="button" className="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
                                                 <span className="icon-bar"></span>
                                                 <span className="icon-bar"></span>
-                                                <span className="icon-bar"></span>                        
+                                                <span className="icon-bar"></span>
                                                 </button>
-                                                
+
                                             </div>
                                             <div className="collapse navbar-collapse" id="myNavbar">
                                                 <ul className="nav navbar-nav">
@@ -109,7 +109,7 @@ class Home extends React.Component {
                                                     <li><a href="#faq">FAQ</a></li>
                                                     <li><a href="#token">The Fund</a></li>
                                                 </ul>
-                                            
+
                                             </div>
                                         </div>
                                     </nav>
@@ -117,6 +117,9 @@ class Home extends React.Component {
                             </div>
                             <div className="col-lg-2 col-md-2 col-sm-2 col-xs-12 contact_check padding">
                                 <a className="contact-btn" href="#contact">Pre-qualify now</a>
+                                <button id="signupButton" className="civic-button-a medium" type="button">
+                                  <span>Pre-qualify with Civic</span>
+                                </button>                                
                             </div>
                         </div>
                     </div>
@@ -125,7 +128,7 @@ class Home extends React.Component {
 
 
 
-                <div className="slider"> 
+                <div className="slider">
                     <div className="container">
                         <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12 main_slider padding">
                             <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 padding"></div>
@@ -135,14 +138,14 @@ class Home extends React.Component {
                             <div className="col-lg-3 col-md-3 col-sm-3 col-xs-12 yellow-right padding">
                                 <a target="_blank" rel="noopener noreferrer"  className="white-btn" href="http://brillouinenergy.com">Visit Brillouin Energy Site</a>
                             </div>
-                            
+
                             <div className="slider_content">
                                 <h1>WELCOME TO BEC LTD.</h1>
                                 <p>FUNDING THE EVOLUTION OF CLEAN, LOW COST, <br />RENEWABLE ENERGY</p>
                             </div>
                         </div>
                     </div>
-                
+
 
                 </div>
 
@@ -150,7 +153,7 @@ class Home extends React.Component {
 
 
 
-                <div className="main_body" id="link-about" > 
+                <div className="main_body" id="link-about" >
                     <div className="container" id="about">
 
                         <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12 about  padding">
@@ -167,9 +170,9 @@ class Home extends React.Component {
                                 </p>
                             </div>
                             <div className="col-lg-6 col-md-6 col-sm-6 col-xs-12 iframe  padding">
-                                
+
                                 <iframe title="video" src="https://player.vimeo.com/video/181723082" width="640" height="360" frameBorder="0" webkitallowfullscreen ="true" mozallowfullscreen="true" allowFullScreen></iframe>
-                                    
+
                             </div>
 
 
@@ -184,7 +187,7 @@ class Home extends React.Component {
 
 
 
-                <div className="meet-team" id="team">  
+                <div className="meet-team" id="team">
                     <div className="container">
                         <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12 meet-team-hedding text-center padding">
                             <h2>MEET THE BOARD OF DIRECTORS</h2>
@@ -212,8 +215,8 @@ class Home extends React.Component {
                                     <h3 className="meet_team">Robert Godes <br/> Board Member</h3>
                                     <div className="meet-team-box-text overlay">
                                         <h3 >Robert Godes <br/> Board Member</h3>
-                                        <p className="show-read-more"> <span className="first_data">After 25 years experience as an innovator in identifying and developing various clean <span className="morecontent">technology products, Robert Godes founded Brillouin Energy. He has closely studied and has a deep understanding of applied science,most engineering disciplines, quantum mechanics,general physics, high energy and condensed matter physics, electronics,most engineering disciplines, </span></span><span className="sec_data show-read-more2" > quantum mechanics,general physics, high energy and condensed matter physics, electronics, control systems,programming, and electro chemistry. Mr. Godes holds a B.Sc. in Electrical Engineering from Ohio Northern University.including product design and commercialization, and in providing creative <br/> 
-                                        <a href="javascript:void(0);" className="prev"> {'<< '}prev</a>     
+                                        <p className="show-read-more"> <span className="first_data">After 25 years experience as an innovator in identifying and developing various clean <span className="morecontent">technology products, Robert Godes founded Brillouin Energy. He has closely studied and has a deep understanding of applied science,most engineering disciplines, quantum mechanics,general physics, high energy and condensed matter physics, electronics,most engineering disciplines, </span></span><span className="sec_data show-read-more2" > quantum mechanics,general physics, high energy and condensed matter physics, electronics, control systems,programming, and electro chemistry. Mr. Godes holds a B.Sc. in Electrical Engineering from Ohio Northern University.including product design and commercialization, and in providing creative <br/>
+                                        <a href="javascript:void(0);" className="prev"> {'<< '}prev</a>
                                         <a href="javascript:void(0);" className="sec_next">next{' >>'}</a></span><span className="hide_data " > solutions for product development, marketing and international licensing and joint ventures. Previously he was CEO of several companies including Commerce Direct Systems, Inc. Napa, CA, Imagineering International, Inc., Nashua, NH and Denning Mobile Robotics, Inc. Wilmington, MA. <br/><a href="javascript:void(0);" className="prev2"> {'<< '}prev</a></span></p>
                                     </div>
                                 </div>
@@ -267,21 +270,21 @@ class Home extends React.Component {
                         </div> */}
 
                     </div>
-                </div> 
-                
+                </div>
+
                 <div className="faq" id="faq">
                     <div className="faq1" id="faq1" style={{paddingTop: '50px'}}>
                         <div className="container">
                             <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center padding">
                                 <h2 data-toggle="collapse" data-target="#faq-collapse" id="faq-btn" className="collapsed" style={{cursor: 'pointer'}}>FAQ</h2>
                             </div>
-                        </div>   
+                        </div>
                     </div>
                 </div>
                 <div className="faq-bottom collapse" id="faq-collapse">
                     <div className="container">
                         <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding">
-                            <h4>Why did you set up a separate company? </h4> 
+                            <h4>Why did you set up a separate company? </h4>
                             <p>Brillouin Energy Corporation is focused on the development and commercialization of the technology that will revolutionize the energy industry.
                             BEC Ltd. is focused on communicating to unit holders the progress of their investment and distributing the benefits of that investment as they occur. </p>
                             <br/><br/>
@@ -304,7 +307,7 @@ class Home extends React.Component {
                             <h4>Do I have to pass KYC to participate?</h4>
                             <p>Yes. </p><br/><br/>
 
-                                                
+
 
                             <h4>How do I buy my units?</h4>
                             <p>When the sale is open, you will be able to access the point of sale from this website. First you will be asked to complete the KYC process. Once you are verified, you will be notified and you will have a limited time to return to the portal and purchase your units. Once you have specified the number of units you wish to purchase, you will be given wiring instructions and once your wire is received, you will be notified that your units have been transferred to your account, which will be visible to you in the portal.</p>
@@ -324,14 +327,14 @@ class Home extends React.Component {
                             <h4>What if I don't have enough money to buy the minimum amount of units. Am I able to buy in as a group?</h4>
                             <p>Unfortunately, no. While we welcome all manner of investment funds who are diversified, a dedicated pool would be viewed by regulators as additional unit holders, putting BEC Ltd. at risk of being classified as a public company.</p><br/><br/>
                         </div>
-                        </div> 
+                        </div>
                     </div>
                 <div className="token" id="token">
                         <div className="container">
                         <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding">
                             <h2>Fund Details</h2>
                         </div>
-                        
+
                         <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12 token_create padding">
                             <p>There is an opportunity for up to 299 US investors and up to 1,999 total investors to participate in this fund.</p>
                             <ul>
@@ -341,14 +344,14 @@ class Home extends React.Component {
                             distributed profit reaches ten times the initial fund value, after which</li>
                             <li>Brillouin Energy Corp. will distribute 5% of its net profit to BEC Ltd. in perpetuity</li>
                             </ul>
-                            <p>BEC Ltd. will distribute all revenues received from Brillouin Energy Corp. to unit holders equally on a per unit basis.</p>  
+                            <p>BEC Ltd. will distribute all revenues received from Brillouin Energy Corp. to unit holders equally on a per unit basis.</p>
                         </div>
                         </div>
                 </div>
 
                 <div className="footer">
 
-                    
+
                     <div className="container" id="contact">
                     <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding">
                         <div className="contact-box">
@@ -359,7 +362,7 @@ class Home extends React.Component {
                                     <div className="contact-description">
                                         <p>
                                             There is an opportunity for up to 299 US investors and up to 1,999 total investors to participate in this fund. Access to the fund will be on a first come, first served basis, beginning soon.
-                                        </p> 
+                                        </p>
                                         <p>
                                             The minimum investment in this fund is 24,750 EUR. Register here to get on the waitlist and receive advanced notice when the units in the fund become for sale.
                                         </p>
@@ -396,9 +399,9 @@ class Home extends React.Component {
                                 <h4>
                                     Error
                                 </h4>
-                                Sorry there was an error sending your form. 
+                                Sorry there was an error sending your form.
                             </div>
-                            {this.state.contacted && 
+                            {this.state.contacted &&
                                 <div id="success_message" style={{width:'100%', height:'100%', float: 'left', color: '#fff',border: '1px solid', padding: '30px'}}>
                                     <h2>Thank you for your interest in being a part of the next energy evolution. A representative from BEC Limited will get in touch with you soon!</h2>
                                 </div>
@@ -406,7 +409,7 @@ class Home extends React.Component {
                         </div>
                     </div>
                         <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12 bottom_footer  padding">
-                            
+
                             <div className="col-lg-10 col-md-10 col-sm-10 col-xs-12 left_footer padding">
                                 <p>©2018 Brillouin Energy. All rights reserved.</p>
                             </div>
