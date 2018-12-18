@@ -130,7 +130,7 @@
               JWT: jwtToken,
             })
             .then(function (response) {
-              console.log('Civic User: ' + response);
+              console.log('Civic User: ' + JSON.stringify(response));
             })
             .catch(function (error) {
               console.log('ERR: ' + error);
