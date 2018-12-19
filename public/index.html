@@ -126,7 +126,7 @@
           var jwtToken = event.response;
           console.log('jwt token: ' + jwtToken);
           // TODO: URL config
-          axios.post('https://apidevbec.azurewebsites.net/civic', {
+          axios.post('https://apidevbec.azurewebsites.net/api/civic', {
               JWT: jwtToken,
             })
             .then(function (response) {
