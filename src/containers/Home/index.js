@@ -2,6 +2,9 @@
 import React from 'react';
 import './style.css';
 
+import { Form, Input, Button } from 'antd';
+import { connect } from 'react-redux';
+
 import imgLogo from '../../assets/logo.png';
 import titleLine from '../../assets/title-line.png';
 import teamImg1 from '../../assets/team-img-1.png';
@@ -19,6 +22,8 @@ import socialIcon2 from '../../assets/social-icon-2.png';
 import chartImg from '../../assets/projection.svg';
 
 import api from 'utils/api';
+
+const { Item } = Form;
 
 class Home extends React.Component {
 
@@ -76,7 +81,33 @@ class Home extends React.Component {
         }
     }
 
+    register = e => {
+        e.preventDefault();
+    
+        const { form } = this.props;
+    
+        form.validateFieldsAndScroll({ scroll: { offsetTop: 70 } }, (err, values) => {
+            if (err) return;
+            this.setState({ loading: true });
+            api({
+                url: `/api/user/register`,
+                method: 'Post',
+                data: values
+            }).then(res=>{
+                this.setState({loading: false});
+                if(res.data[0].Result === 'Success!!!') {
+                    this.setState({contacted: true}, ()=>{
+                        setTimeout(()=>{
+                            this.setState({contacted: false})
+                        }, 3000);
+                    })
+                }
+            })
+        });
+    };
+
     render() {
+        const { getFieldDecorator } = this.props.form;
 
         return (
             <div className="wapper">
@@ -367,10 +398,28 @@ class Home extends React.Component {
                                             The minimum investment in this fund is 24,750 EUR. Register here to get on the waitlist and receive advanced notice when the units in the fund become for sale.
                                         </p>
                                     </div>
+                                    <Form onSubmit={this.register} className="shadow1">
+                                        <Item>
+                                            {getFieldDecorator('email', {
+                                            rules: [
+                                                { type: 'email', message: 'The input is not valid email!' },
+                                                { required: true, message: 'Please input your email!' }
+                                            ]
+                                            })(
+                                            <Input type="email" />
+                                            )}
+                                        </Item>
+
+                                        <Item>
+                                            <Button className="send_btn" type="primary" htmlType="submit" loading={this.state.loading}>
+                                                Send
+                                            </Button>
+                                        </Item>
+                                    </Form>
                                     {/* <div className="form-group">
                                         <input type="text" name="name" className="contact_input mobile" placeholder="As it appears on government ID" />
                                         <input type="text" name="name" className="contact_input desktop" placeholder="First, middle, and last name as it appears on your government issued photo ID" />
-                                    </div> */}
+                                    </div>
                                     <div className="form-group">
                                         <input type="text" name="firstName" className="contact_input" placeholder="First Name" onChange={this.onFirstNameChange} value={this.state.firstName}/>
                                     </div>
@@ -391,7 +440,7 @@ class Home extends React.Component {
                                     </div>
                                     <div className="form-group">
                                         <button className="send_btn" disabled={this.state.loading} onClick={this.submitForm}>Send</button>
-                                    </div>
+                                    </div> */}
                                 </div>
                                 <div className="col-lg-1 col-md-1 col-sm-1 col-xs-12 padding"></div>
                             </div>
@@ -432,4 +481,4 @@ class Home extends React.Component {
     }
 }
 
-export default Home;
+export default connect(null, null)(Form.create()(Home));

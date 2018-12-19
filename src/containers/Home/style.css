@@ -49,8 +49,8 @@ body{
         margin: 0 auto;
 }
 .contact-btn {
-        background: none;
-    border: 3px solid #fff;
+    background: none;
+    border: 3px solid #50e3c2;
     padding: 10px;
     color: #fff  !important;
     font-weight: 600;
@@ -113,11 +113,11 @@ body{
     float: right;
 }
 .slider_content h1{
-        font-size: 60px;
+    font-size: 60px;
     font-weight: 900;
     text-transform: uppercase;
     letter-spacing: 5px;
-    color: #37bdaf;
+    color: #50e3c2;
     font-family: arial;
     margin: 0 0 20px;
     width: 100%;
@@ -585,7 +585,7 @@ p.descrpation {
     width: 100%;
     height: auto;
     margin: 0;
-    padding: 61px;
+    padding: 60px;
     border-radius: 10px;
     float: left;
     background-color:#0088ab;
@@ -629,15 +629,15 @@ p.descrpation {
 {
     font-size: 14px;
     font-weight: 600;
-    background-color: #4ec9f5;
+    background-color: #50e3c2 !important;
     color: #fff;
     padding: 11px 35px;
     margin: 0;
-     border-radius: 4px;
+    border-radius: 4px;
     text-decoration: none;
     text-transform: uppercase;
     display: inline-block;
-    border: none;
+    border: none !important;
     width:100%;
     outline: none;
 }
