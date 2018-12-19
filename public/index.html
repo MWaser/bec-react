@@ -120,7 +120,8 @@
       $(document).ready(function() {
         var button = document.querySelector('#signupButton');
         button.addEventListener('click', function () {
-          civicSip.signup({ style: 'popup', scopeRequest: civicSip.ScopeRequests.BASIC_SIGNUP });
+          // civicSip.ScopeRequests.BASIC_SIGNUP - email, phone, and userId
+          civicSip.signup({ style: 'popup', scopeRequest: civicSip.ScopeRequests.PROOF_OF_IDENTITY });
         });
         civicSip.on('auth-code-received', function (event) {
           var jwtToken = event.response;
