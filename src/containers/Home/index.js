@@ -83,9 +83,9 @@ class Home extends React.Component {
 
     register = e => {
         e.preventDefault();
-    
+
         const { form } = this.props;
-    
+
         form.validateFieldsAndScroll({ scroll: { offsetTop: 70 } }, (err, values) => {
             if (err) return;
             this.setState({ loading: true });
@@ -149,8 +149,8 @@ class Home extends React.Component {
                             <div className="col-lg-2 col-md-2 col-sm-2 col-xs-12 contact_check padding">
                                 <a className="contact-btn" href="#contact">Pre-qualify now</a>
                                 <button id="signupButton" className="civic-button-a medium" type="button">
-                                  <span>Pre-qualify with Civic</span>
-                                </button>                                
+                                  <span>KYC with Civic</span>
+                                </button>
                             </div>
                         </div>
                     </div>
