@@ -1,0 +1,24 @@
+.cell-tooltip-style {
+    pointer-events: inherit !important;
+}
+
+.cell-button {
+    text-align: center;
+    padding-top: 3px !important;
+    padding-bottom: 3px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.clickable-table-row {
+    cursor: pointer;
+}
+
+.clickable-table-row .ant-checkbox-inner {
+    border-color: #b9b9b9;
+}
+
+.clickable-table-row:hover .ant-checkbox-inner {
+    border-color: #1890ff;
+}

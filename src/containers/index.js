@@ -1,11 +1,15 @@
+import Geolocate from './Geolocate';
 import Home from './Home';
-import Users from './Admin/Users';
-import Signin from './Signin';
-import Password from './Password';
+import Dashboard from './Dashboard';
+import Purchase from './Purchase';
+import Admin from './Admin';
+import UserReport from './Utils/UserReport';
 
-export { 
-    Users, 
+export {
+    Geolocate,
     Home,
-    Signin, 
-    Password
+    Dashboard,
+    Purchase,
+    Admin,
+    UserReport,
 };

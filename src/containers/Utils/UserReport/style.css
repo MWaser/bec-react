@@ -1,0 +1,12 @@
+.sub-container {
+    align-self:center;
+    min-width: 700px;
+    max-width: 1200px;
+    width: 1200px;
+}
+
+.utils {
+    width: 100%;
+    align-content:center;
+    text-align:center;
+}

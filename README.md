@@ -14,7 +14,7 @@ CHANGED COMMAND!! Now runs the app in production mode rather than development mo
 You must 'npm run build' first.
 Open [http://localhost:3001](http://localhost:3001) to view it in the browser.
 
-### `npm devstart`
+### `npm dev-start`
 
 NEW COMMAND!! Runs the app in the development mode.<br>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
